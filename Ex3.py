@@ -68,11 +68,11 @@ Step by step
 1.	Ekspresi ditulis dalam bentuk string
 
 
-2.	For i in inxexp:
+2.	For i in expr:
     If i is alphabet or digit:
         tambahkan ke postfix
     Else if i == '(':
-        masukan '(' in the stack
+        masukan '(' kedalam stack
     Else if i == ')':
         Pop elemen dari tumpukan dan tambahkan ekspresi postfix sampai kita mendapatkan ')' di atas tumpukan.
         Pop '(' dari tumpukan dan jangan tambahkan dalam ekspresi postfix.
