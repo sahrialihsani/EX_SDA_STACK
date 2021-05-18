@@ -60,7 +60,7 @@ s=convertToPost()
 expr=input('Enter expression: ')
 result=s.convert(expr)
 if (result!=False):
-    print("Postfix of :",expr,"is = ",result)
+    print("Postfix of ",expr,"is = ",result)
 
     
 """
