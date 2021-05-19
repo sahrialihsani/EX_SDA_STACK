@@ -20,15 +20,15 @@ def binary_search(array, kiri, kanan, nilaidicari):
             return binary_search(array, tengah + 1, kanan, nilaidicari)
  
     else:
-        # Elemen tidak ada di arrayay
+        # Elemen tidak ada di array
         return -1
  
-# Masukan data pada berbentuk arrayay
-array = [ 2, 3, 4, 10, 40 ]
-nilaidicari = 10
+# Masukan data pada berbentuk array
+array = [ 10, 20, 30, 40, 50, 60 ]
+nilaidicari = 40
 # Lakukan pencarian
 result = binary_search(array, 0, len(array)-1, nilaidicari)
 if result != -1:
     print("Elemen berada pada indeks ke: ", str(result))
 else:
-    print("Elemen tidak berada didalam arrayay")
+    print("Elemen tidak berada didalam array")
